@@ -1,0 +1,352 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    height: 550px;
+}
+.left{
+    width: 55vw;
+    margin: 50px 140px;
+    margin-right: 60px;
+    background: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.left .header svg{
+    height: 80px;
+    fill: rgb(223, 110, 6);
+}
+.left .btn{
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 40px;
+}
+.light{
+    color: #000000;
+    background: #fff;
+    padding: 10px;
+}
+.light:hover{
+    color: rgb(255, 145, 0);
+}
+.dark{
+    color: #ffffff;
+    background: #000000;
+}
+.dark:hover{
+    background: rgb(29, 28, 28);
+}
+.right img{
+    width:45vw;
+    height: 550px;
+}
+.content{
+    margin-top: 50px;
+}
+.content h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(39, 39, 39);
+}
+.content h5{
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgb(68, 66, 66);
+    font-weight: 400;
+}
+.input{
+    margin-top: 40px;
+    display: flex;
+}
+.input input{
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0em;
+    position: relative;
+}
+.input input:focus{
+    outline: none;
+    border: 1px chocolate solid;
+}
+.input input:placeholder-shown{
+    padding: 15px;
+    font-size: 18px;
+}
+.btn2{
+    display: flex;
+    position: absolute;
+    margin-left:370px;
+    margin-top: 8PX;
+    padding: 10PX;
+}
+.btn2:hover{
+    background: rgb(230, 224, 224);
+}
+.btn3{
+    text-decoration: none;
+}
+.btn2 img{
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+}
+.input a{
+    width: 120px;
+    font-weight: 700;
+    padding: 19px 15px;
+    margin-bottom: 4px;
+    background: chocolate;
+    color: #ffffff;
+}
+.city{
+    margin-top: 25px;
+    color: rgb(129, 128, 128);
+    font-weight: 500;
+    font-size: 17px;
+}
+.a{
+    margin-top: 10px;
+}
+.city a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+a.dark,a.dark:hover{
+    color: rgb(59, 59, 59);
+    background: #fff;
+}
+a.light,a.light:hover{
+    padding: 0;
+    color: grey;
+    background: #fff;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    background: #501802;
+    padding-left: 30px;
+    height: 400px;
+    text-align: center;
+    width: 100vw;
+}
+.bottom .img{
+    width: 300px;
+}
+.img img{
+    width: 120px;
+}
+.img.img3{
+    margin-top: 30px;
+}
+.img h5{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.img p{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(167, 125, 106);
+}
+.banner{
+    display: flex;
+    width: 100vw;
+}
+.banner img{
+    width: 400px;
+}
+.banner-heading{
+    margin:100px 150px;
+}
+.banner-heading h1{
+    font-size: 36px;
+    width: 300px;
+}
+.banner-heading p{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 400px;
+}
+.banner-heading a img{
+    margin-top: 60px;
+    margin-right: 25px;
+    width: 180px;
+}
+.bottom-end{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    padding-top: 100px;
+
+}
+.img4 img{
+    display: block;
+    width: 200px;
+    margin: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: #fff;
+    border-top: 1px solid grey;
+    padding-top: 40px;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+.end #logo{
+    width: 200px;
+    height: 50px;
+}
+.end p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.block{
+    color: #fff;
+    width: 320px;
+}
+.company-details{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+}
+.company-details h4{
+    margin-bottom: 20px;
+    color: grey;
+}
+.company-details a{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.company-details a:hover{
+    font-size: 18px;
+}
+.icons img{
+    width:50px;
+    height: 50px;
+    padding:10px ;
+    cursor: pointer;
+}
+.main-2{
+    display: none;
+}
+@media(max-width:720px){
+    .Wrapper{
+        display: none;
+    }
+    .main-2{
+        display: block;
+    }
+    .image-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-bottom-text{
+        width: 50%;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .image-bottom-text h1{
+        font-size: 25px;
+    }
+    .image-bottom-text p{
+        margin: 12px 0px;
+        font-size: 13px;
+        color: grey;
+    }
+    .image-bottom-text #loc{
+        background: chocolate;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        padding: 15px 20px;
+        width: 220px;
+        margin: 0 auto;
+    }
+    .image-bottom-text #login{
+        padding-top: 5px;
+        text-align: center;
+    }
+    .image-bottom-text #login a{
+        color: chocolate;
+        text-decoration: none;
+        margin-left: 5px;
+        }
+        /* Slideshow container */
+        .slideshow-container {
+        }
+        
+        /* Hide the images by default */
+        .mySlides img{
+            height: 60vh;
+            width: 100%;
+        }        
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+        
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+        .dot-main{
+            text-align: center;
+            margin-top: -50px;
+        }
+
+    
+}
+@media(max-width:485px){
+    .image-bottom-text h1{
+        font-size: 20px;
+    }
+}
